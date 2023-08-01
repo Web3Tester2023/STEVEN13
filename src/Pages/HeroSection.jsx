@@ -205,7 +205,8 @@ export default function HeroSection() {
                   fontSize: { xs: "13px", md: "15px" },
                 }}
               >
-                Start Date : <span style={{ color: "#fff" }}>August 1, 2023</span>
+                Start Date :{" "}
+                <span style={{ color: "#fff" }}>August 1, 2023</span>
               </Typography>
               <Typography
                 sx={{
@@ -276,6 +277,29 @@ export default function HeroSection() {
           </Box>
           <Box sx={{ width: { xs: "100%", md: "45%" } }}>
             <Form />
+            <Box>
+              <Typography
+                sx={{
+                  fontFamily: "Rubik",
+                  fontSize: { xs: "20px", md: "25px" },
+                  fontWeight: "bold",
+                }}
+              >
+                Instruction:
+              </Typography>
+              <ul style={{ color: "#fff" }}>
+                <li>
+                  <Typography>Minimum Purchase allowed: 0.1 MATIC</Typography>
+                </li>
+                <li>
+                  <Typography>
+                    {" "}
+                    Purchase Amount should be multiple of minimum purchase 0.1
+                    MATIC
+                  </Typography>
+                </li>
+              </ul>
+            </Box>
           </Box>
         </Box>
       </Container>

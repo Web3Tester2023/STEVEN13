@@ -75,7 +75,7 @@ export const Form = () => {
   const formik = useFormik({
     initialValues: {
       bnb: "",
-      rate: "29.6 PER 0.1 MATIC",
+      rate: "296 PER MATIC",
     },
 
     validationSchema: validationSchema,
