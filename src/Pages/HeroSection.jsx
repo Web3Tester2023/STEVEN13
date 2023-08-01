@@ -169,7 +169,7 @@ export default function HeroSection() {
                   },
                 }}
               >
-                Uberwol Capital
+                Uberwolf Capital
               </Typography>
               <Typography
                 sx={{
@@ -205,7 +205,7 @@ export default function HeroSection() {
                   fontSize: { xs: "13px", md: "15px" },
                 }}
               >
-                Start Date : <span style={{ color: "#fff" }}>July 1, 2023</span>
+                Start Date : <span style={{ color: "#fff" }}>August 1, 2023</span>
               </Typography>
               <Typography
                 sx={{
@@ -215,7 +215,7 @@ export default function HeroSection() {
                 }}
               >
                 End Date :{" "}
-                <span style={{ color: "#fff" }}> September, 01, 2023</span>
+                <span style={{ color: "#fff" }}> August, 28, 2023</span>
               </Typography>
             </Box>
             <Box
