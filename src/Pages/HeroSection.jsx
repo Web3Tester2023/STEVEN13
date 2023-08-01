@@ -216,7 +216,7 @@ export default function HeroSection() {
                 }}
               >
                 End Date :{" "}
-                <span style={{ color: "#fff" }}> August, 28, 2023</span>
+                <span style={{ color: "#fff" }}> August, 31, 2023</span>
               </Typography>
             </Box>
             <Box
