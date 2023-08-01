@@ -8,6 +8,7 @@ import {
   Box,
   Paper,
   Typography,
+  spacing
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -16,6 +17,10 @@ import logo from "../Images/logo.png";
 
 import { AppContext } from "../utils";
 import { StyledButton } from "./SmallComponents/AppComponents";
+
+const theme = {
+  spacing: 8,
+}
 
 const useStyles = makeStyles({
   list: {
@@ -125,7 +130,7 @@ export default function Header() {
               <img
                 src={logo}
                 alt=""
-                style={{ width: "70px", height: "70px", objectFit: "cover" }}
+                style={{ width: "70px", height: "70px", objectFit: "cover", pl: 2 }}
               />
               <Typography
                 sx={{

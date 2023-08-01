@@ -75,12 +75,12 @@ export default function HeroSection() {
     {
       name: "Symbol",
       // value: tokenData?.Symbol,
-      value: "Uberwolf capital ",
+      value: "Uberwolf Capital ",
     },
     {
       name: "Total Supply",
       // value: tokenData?.totalSuply,
-      value: "10000000000.00",
+      value: "10,000,000,000",
     },
     {
       name: "NetWork",
