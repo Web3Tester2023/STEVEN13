@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 import React, { useState, useEffect } from "react";
 
 const DownCounter = () => {
-  const deadline = "August, 28, 2023";
+  const deadline = "August, 31, 2023";
   const calculateTimeRemaining = (deadline) => {
     const currentTime = new Date().getTime();
     const targetTime = new Date(deadline).getTime();
