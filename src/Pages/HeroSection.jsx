@@ -84,7 +84,7 @@ export default function HeroSection() {
     },
     {
       name: "NetWork",
-      value: "Polygon",
+      value: "Polygon Mumbai Testnet",
     },
     {
       name: "Exchange Rate",
